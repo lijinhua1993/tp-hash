@@ -14,6 +14,16 @@
 
 第一步:
 
+由于此包存储位置在内网gitlab上,需要在项目根目录下的composer.json文件中添加:
+```shell
+"repositories": {
+    "lijinhua/tp-hash": {
+        "type": "vcs",
+        "url": "git@172.20.67.5:packages/tp-hash.git"
+    }
+}
+```
+
 ```shell
 $ composer require lijinhua/tp-hash
 ```
