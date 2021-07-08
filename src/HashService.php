@@ -4,6 +4,8 @@ declare (strict_types=1);
 
 namespace LiJinHua\Hash;
 
+use LiJinHua\Hash\Commands\ConfigCommand;
+
 class HashService extends \think\Service
 {
     /**
@@ -29,6 +31,6 @@ class HashService extends \think\Service
      */
     public function boot()
     {
-        //
+        $this->commands(ConfigCommand::class);
     }
 }

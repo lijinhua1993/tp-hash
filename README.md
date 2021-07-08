@@ -20,16 +20,6 @@ $ composer require lijinhua/tp-hash
 
 第二步:
 
-可以在应用的全局公共文件service.php中定义需要注册的系统服务，系统会自动完成注册以及启动。例如：
-
-```php
-return [
-    'LiJinHua\Hash\HashService',
-];
-```
-
-第三步:
-
 ```shell
 $ php think hash:config
 ```
