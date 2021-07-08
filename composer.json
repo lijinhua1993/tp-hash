@@ -1,0 +1,27 @@
+{
+    "name": "lijinhua/tp-hash",
+    "type": "library",
+    "description": "适用于tp6的hash加密",
+    "authors": [
+        {
+            "name": "李金华",
+            "email": "316919821@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "lijinhua\\tp_hash\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "LiJinHua\\Hash\\HashService"
+            ],
+            "config": {
+                "hash": "config/config.php"
+            }
+        }
+    }
+}
