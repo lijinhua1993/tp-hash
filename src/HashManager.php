@@ -1,8 +1,8 @@
 <?php
 
-namespace LiJinHua\Hash;
+namespace lijinhua\hash;
 
-use LiJinHua\Hash\Contracts\Hasher;
+use lijinhua\hash\contract\Hasher;
 use think\Manager;
 
 class HashManager extends Manager implements Hasher

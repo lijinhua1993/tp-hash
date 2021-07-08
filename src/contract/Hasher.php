@@ -1,6 +1,6 @@
 <?php
 
-namespace LiJinHua\Hash\Contracts;
+namespace lijinhua\hash\contract;
 
 interface Hasher
 {

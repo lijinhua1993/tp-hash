@@ -1,6 +1,6 @@
 <?php
 
-namespace LiJinHua\Hash;
+namespace lijinhua\hash;
 
 abstract class AbstractHasher
 {

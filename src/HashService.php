@@ -2,9 +2,9 @@
 
 declare (strict_types=1);
 
-namespace LiJinHua\Hash;
+namespace lijinhua\hash;
 
-use LiJinHua\Hash\Commands\ConfigCommand;
+use lijinhua\hash\command\ConfigCommand;
 
 class HashService extends \think\Service
 {

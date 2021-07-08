@@ -1,6 +1,6 @@
 <?php
 
-namespace LiJinHua\Hash\Facades;
+namespace lijinhua\hash\facade;
 
 use think\Facade;
 

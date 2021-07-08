@@ -1,8 +1,8 @@
 <?php
 
-namespace LiJinHua\Hash;
+namespace lijinhua\hash;
 
-use LiJinHua\Hash\Contracts\Hasher as HasherContract;
+use lijinhua\hash\contract\Hasher as HasherContract;
 use RuntimeException;
 
 class BcryptHasher extends AbstractHasher implements HasherContract

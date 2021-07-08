@@ -8,22 +8,25 @@
             "email": "316919821@qq.com"
         }
     ],
+    "license": "MIT",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "topthink/framework": "^6.0.0"
     },
     "autoload": {
         "psr-4": {
-            "LiJinHua\\Hash\\": "src"
+            "lijinhua\\hash\\": "src"
         }
     },
     "extra": {
         "think": {
             "services": [
-                "LiJinHua\\Hash\\HashService"
+                "lijinhua\\hash\\HashService"
             ],
             "config": {
                 "hash": "config/config.php"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

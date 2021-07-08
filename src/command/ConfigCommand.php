@@ -1,6 +1,6 @@
 <?php
 
-namespace LiJinHua\Hash\Commands;
+namespace lijinhua\hash\command;
 
 use think\console\Input;
 use think\console\Output;
