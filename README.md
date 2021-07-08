@@ -32,7 +32,7 @@ $ php think hash:config
 示例：
 
 ```php
-use LiJinHua\Hash\Facades\Hash;
+use lijinhua\hash\facade\Hash;
 
 $password = 'admin123';
 // 密码加密
