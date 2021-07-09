@@ -21,7 +21,7 @@ class ConfigCommand extends \think\console\Command
     public function createConfig($output)
     {
         $configFilePath = app()->getAppPath() . '..' . DIRECTORY_SEPARATOR . 'config'
-            . DIRECTORY_SEPARATOR . 'hashing.php';
+            . DIRECTORY_SEPARATOR . 'hash.php';
 
         if (is_file($configFilePath)) {
             $output->writeln('Config file is exist');

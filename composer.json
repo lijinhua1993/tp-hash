@@ -24,7 +24,7 @@
                 "lijinhua\\hash\\HashService"
             ],
             "config": {
-                "hashing": "config/config.php"
+                "hash": "config/config.php"
             }
         }
     },

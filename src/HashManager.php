@@ -14,7 +14,7 @@ class HashManager extends Manager implements Hasher
      */
     public function createBcryptDriver()
     {
-        return new BcryptHasher($this->app->config->get('hashing.bcrypt') ?? []);
+        return new BcryptHasher($this->app->config->get('hash.bcrypt') ?? []);
     }
 
     /**
@@ -72,6 +72,6 @@ class HashManager extends Manager implements Hasher
      */
     public function getDefaultDriver()
     {
-        return $this->app->config->get('hashing.driver', 'bcrypt');
+        return $this->app->config->get('hash.driver', 'bcrypt');
     }
 }
